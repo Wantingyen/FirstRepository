@@ -1,0 +1,67 @@
+/* Style Sheet */
+
+*{
+    background-color: rgba(182,227,233,0.2);
+    color:#00008B;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    border-bottom:2px solid #ffff66;
+}
+
+.header{
+    display:inline-flex;
+    padding:0px 10px 0px 10px;
+}
+
+h1{
+    color:#483D8B;
+    font-family: 'Germania One', cursive;
+    font-family: 'Lobster Two', cursive;
+    text-transform: capitalize;
+}
+p{
+    line-height:1.5rem;
+}
+
+.photo{
+    display:inline-block;
+    padding:10px;
+    margin:10px;
+    width:20vw; height:auto;
+}
+
+#my-para{
+    color:olive;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    font-size:1.1rem;
+    font-weight:800;
+    text-align:center;
+}
+
+.info{
+    display:block;
+    padding:5px;
+}
+
+ul li{
+    list-style-type:square;
+    padding-right:15px;
+}
+
+.main-aside{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+a{
+    text-decoration:none;
+}
+
+footer{
+    display:flex;
+    border-top:2px solid #ffff66;
+}

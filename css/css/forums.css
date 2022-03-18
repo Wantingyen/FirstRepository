@@ -1,0 +1,37 @@
+*{
+    background-color: rgba(255, 207, 238, 0.2);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    border-bottom:2px solid #ffff66;
+}
+.header{
+    display:inline-flex;
+    padding:0px 10px 0px 10px;
+}
+
+h1{
+    color:#483D8B;
+    font-family: 'Germania One', cursive;
+    font-family: 'Lobster Two', cursive;
+}
+
+
+ul li{
+    list-style-type:square;
+    padding-right:15px;
+}
+
+.main-aside{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+a{
+    text-decoration:none;
+}
+footer{
+    display:flex;
+    border-top:2px solid #ffff66;
+}
